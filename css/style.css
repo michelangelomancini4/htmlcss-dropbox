@@ -80,7 +80,7 @@ main{
 .macrosection div {
     /* background-color: white; */
     /* border: 1px solid black; */
-    height: 60%;
+    height: 50%;
     /* width: 35%;    */
     
 }
@@ -136,8 +136,12 @@ main{
     .cella-totale {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-around;
         border: 1px solid black;
+        flex-basis: 17%;
+        margin: 3% 3%;
+        padding: 1%;
+        position: relative;
 
         
     }
@@ -162,17 +166,23 @@ main{
     
  }
  #blueoption-minisez{
-    align-self: center;
+    /* align-self: center; */
  }
  /* cella orizzontale */
  #cella-orizzontale{
    background-color: rgb(33, 114, 172);
+   flex-basis: 70%;
  }
 /* regole titolo cella */
 .titolo-cella {
     background-color: white;
     border: 1px solid black;
     text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+        
 }
 /* regole minisezione*/
 .minisezione{
