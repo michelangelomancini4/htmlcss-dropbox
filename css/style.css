@@ -6,7 +6,7 @@
 /* regole header */
 header {
     height: 100px;
-    background-color: orange;
+    
     position: fixed;    
     top: 0;
     left: 0;
@@ -18,6 +18,8 @@ header {
 nav{
     display: flex;
     justify-content: space-between;
+    margin: 0 1%;
+    background-color: white;
    
 }
 /* regole sezioni del nav */
@@ -25,16 +27,27 @@ nav{
     display: flex;
     height: 100px;
     
+    
 }
 /* regole div del nav */
 .header-section div {
-    background-color: rgb(110, 110, 229);
     height: 100%;
-    /* width: 20%; */
+    display: flex;
+    align-items: center;
+    padding: 2%;
+    
 }
 .header-section div:hover {
     border-bottom: 3px solid black;
 }
+.header-section a{
+    text-decoration: none;
+}
+.blueoption{
+    background-color: blue;
+    padding: 30%;
+    color: rgb(255, 255, 255);
+    }
 /* regole main */
 
 /* regole jumbo */
