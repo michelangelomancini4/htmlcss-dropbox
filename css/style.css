@@ -3,3 +3,26 @@
     margin: 0;
     box-sizing: border-box;
 }
+header {
+    height: 100px;
+    background-color: orange;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.header-section{
+    display: flex;
+    height: 100px;
+    
+}
+.header-section div {
+    background-color: rgb(110, 110, 229);
+    height: 100%;
+    /* width: 20%; */
+}
+.header-section div:hover {
+    border-bottom: 3px solid black;
+}
