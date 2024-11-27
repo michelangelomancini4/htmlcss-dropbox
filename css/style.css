@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 /* regole header */
 header {
     height: 100px;
@@ -18,7 +21,7 @@ header {
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 0 1%;
+    /* margin: 0 1%; */
     background-color: white;
    
 }
@@ -43,51 +46,104 @@ nav{
 .header-section a{
     text-decoration: none;
 }
+/* regole tasti blu */
 .blueoption{
     background-color: blue;
-    padding: 30%;
+    padding: 10%;
     color: rgb(255, 255, 255);
     }
+.blueoption-big{
+    background-color: rgb(73, 73, 234);
+    text-decoration: none;
+    color: white;
+    padding: 5%;
+    max-width: 70%;
+    text-align: center;
+    
+}
 /* regole main */
 
+main{
+    background-color: rgb(143, 238, 238);
+}
 /* regole jumbo */
 .macrosection{
-    height: 900px;
-    background-color: aqua;
+    /* height: 600px; */
+    background-color: rgb(143, 238, 238);
     /* margin-top: 100px; */
+    margin-bottom: -4%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
 }
 .macrosection div {
-    background-color: crimson;
-    border: 1px solid black;
-    width: 35%;
-    
+    /* background-color: white; */
+    /* border: 1px solid black; */
+    height: 60%;
+    /* width: 35%;    */
     
 }
-
+/* regolo titolo jumbo */
 .titolo {
     margin-top: 100px;
-    /* text-align: center; */
-    font-size: 40px;
+    background-color: rgb(143, 238, 238);
+    font-size: 32px;
     margin-top: 100px;
     margin-left: 15%;
     margin-right: 15%;
     display: flex;
     
     }
+    .colonna-jumbo{
+        position: relative;
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        
+        /* justify-content: space-between; */
+        
+    }
+    #arrow{
+     
+        color: black;
+        font-size: 100px;
+        
+        }
+    
+    .jumbo-image {
+        width: 40%;
+       
+    }
+    .jumbo-image img{
+        max-width: 100%;
+        
+    }
     
 
 
     .selezioni{
-        background-color: darkorange;
-        height: 100px;
+        background-color: rgb(255, 255, 255);
+        height: 150px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        gap: 10%;
     }
+    
     /* sezione grande  */
+    .cella-totale {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border: 1px solid black;
+
+        
+    }
  #sezione-grande {
-   height: 1200px;
-   background-color: deeppink;
+   height: 1600px;
+   background-color: white;
    margin-top: 0;
    gap: 10%;
    display: flex;
@@ -99,13 +155,22 @@ nav{
        
     width: 25%;
  }
+ #sezione-grande li{
+    list-style:  none;
+    font-size: 15px;
+    gap: 10%;
+    
+ }
+ #blueoption-minisez{
+    align-self: center;
+ }
  /* cella orizzontale */
  #cella-orizzontale{
    background-color: rgb(33, 114, 172);
  }
 /* regole titolo cella */
 .titolo-cella {
-    background-color: yellowgreen;
+    background-color: white;
     border: 1px solid black;
     text-align: center;
 }
