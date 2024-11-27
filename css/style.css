@@ -3,21 +3,30 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* regole header */
 header {
     height: 100px;
     background-color: orange;
+    position: fixed;    
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 900;
 
 }
+/* regole nav */
 nav{
     display: flex;
     justify-content: space-between;
    
 }
+/* regole sezioni del nav */
 .header-section{
     display: flex;
     height: 100px;
     
 }
+/* regole div del nav */
 .header-section div {
     background-color: rgb(110, 110, 229);
     height: 100%;
@@ -25,4 +34,45 @@ nav{
 }
 .header-section div:hover {
     border-bottom: 3px solid black;
+}
+/* regole main */
+
+/* regole jumbo */
+.macrosection{
+    height: 900px;
+    background-color: aqua;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.macrosection div {
+    background-color: crimson;
+    border: 1px solid black;
+    width: 35%;
+    
+}
+.titolo {
+   flex-basis: 70%;
+   /* height: 30%; */
+    }
+    .selezioni{
+        background-color: darkorange;
+        height: 100px;
+    }
+    /* sezione grande  */
+ #sezione-grande {
+   height: 1500px;
+   background-color: deeppink;
+   margin-top: 0;
+   gap: 10%;
+ }
+ #sezione-grande div{
+    width: 15%;
+ }
+/* regole titolo cella */
+.titolo-cella {
+    background-color: yellowgreen;
+    border: 1px solid black;
+    text-align: center;
 }
