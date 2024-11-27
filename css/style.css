@@ -51,7 +51,9 @@ nav{
     border: 1px solid black;
     width: 35%;
     
+    
 }
+
 .titolo {
    flex-basis: 70%;
    /* height: 30%; */
@@ -62,13 +64,22 @@ nav{
     }
     /* sezione grande  */
  #sezione-grande {
-   height: 1500px;
+   height: 1200px;
    background-color: deeppink;
    margin-top: 0;
    gap: 10%;
+   display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
  }
  #sezione-grande div{
-    width: 15%;
+       
+    width: 25%;
+ }
+ /* cella orizzontale */
+ #cella-orizzontale{
+   background-color: rgb(33, 114, 172);
  }
 /* regole titolo cella */
 .titolo-cella {
@@ -76,3 +87,71 @@ nav{
     border: 1px solid black;
     text-align: center;
 }
+/* regole minisezione*/
+.minisezione{
+    background-color: yellow;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.minisezione span{
+    height: 70%;
+    border: 1px solid black;
+    border-style: dashed;
+   }
+
+.minisezione :first-child{
+    background-color: rgb(12, 161, 9);
+    flex-basis: 45%;
+}
+.minisezione :last-child {
+    background-color: fuchsia;
+    flex-basis: 30%;
+    
+}
+/* fine regole minisezione */
+
+/* regole titoletto prima drop operations */
+#postmini {
+    font-size: 30px;
+    background-color: orangered;
+
+}
+/* regole sezione drop operations */
+.drop-operation {
+    height: 800px;
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3%;
+    margin-top: 5%;
+}
+.drop-operation div {
+    background-color: yellow;
+    border: 1px solid black;
+    border-style: dashed;
+    width: 26%;
+
+}
+/* regole footer */
+footer{
+    
+}
+.footersection {
+    height: 400px;
+    background-color: rgb(44, 190, 30);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3%;
+    
+}
+.footersection div {
+    background-color: rgb(220, 26, 51);
+    border: 1px solid black;
+    border-style: dashed;
+    width: 12%;
+    }
