@@ -231,27 +231,33 @@ main{
 
 /* regole titoletto prima drop operations */
 #postmini {
-    font-size: 30px;
-    background-color: orangered;
-    text-align: center;
+    font-size: 35px;
+    /* background-color: orangered; */
+    /* text-align: center; */
+    margin-left: 15%;
+    
 
 }
 /* regole sezione drop operations */
 .drop-operation {
-    height: 800px;
-    background-color: blue;
+    height: 1200px;
+    width: 70%;
+    margin-left: 15%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 3%;
+    
+    justify-content: space-around;
+    /* gap: 3%; */
     margin-top: 5%;
 }
 .drop-operation div {
-    background-color: yellow;
-    border: 1px solid black;
-    border-style: dashed;
-    width: 26%;
+    
+    width: 28%;
 
+}
+.drop-operation img {
+    max-width: 100%;
+    margin: 0 auto;
 }
 /* regole footer */
 footer{
