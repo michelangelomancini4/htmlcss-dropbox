@@ -46,20 +46,21 @@ nav{
 .header-section div:hover {
     border-bottom: 3px solid black;
 }
+
 .header-section a{
     text-decoration: none;
 }
 /* regole tasti blu */
 .blueoption{
     background-color: blue;
-    padding: 10%;
+    padding: 16%;
     color: rgb(255, 255, 255);
     }
 .blueoption-big{
     background-color: rgb(73, 73, 234);
     text-decoration: none;
     color: white;
-    /* padding: 2%; */
+    padding: 4%;
     max-width: 70%;
     text-align: center;
     
@@ -79,8 +80,6 @@ nav{
 }
 .macrosection div {
      height:40%;
-    /* width: 35%;    */
-    
 }
 /* regolo titolo jumbo */
 .titolo {
@@ -100,28 +99,20 @@ nav{
         flex-direction: column;
         justify-content: space-between;
         margin-top: 5%;
-       
-        
+        gap: 13px;
     }
     #arrow{
-     
         color: black;
         font-size: 100px;
-        
         }
     /* immagine jumbo */
     .jumbo-image {
         width: 40%;
         margin-top: 5%;
-       
     }
     .jumbo-image img{
-        max-width: 100%;
-        
+        max-width: 120%;
     }
-    
-
-
     .selezioni{
         background-color: rgb(255, 255, 255);
         height: 150px;
@@ -138,7 +129,7 @@ nav{
     /* sezione grande  */
     
  #sezione-grande {
-   height: 1500px;
+   height: 1400px;
    background-color: white;
    margin: 5% 10%;
    display: flex;
@@ -148,21 +139,23 @@ nav{
  .cella-totale {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     border: 1px solid black;
     flex-basis: 22%;
-    margin-bottom: 0;
     padding: 1%;
-
-    
+}
+.cella-totale i{
+    margin-right: 5%;
 }
 /* regole titolo cella */
 .titolo-cella {
     background-color: white;
     border-bottom: 1px solid black;
     text-align: center;
+    padding-bottom:5px ;
+   
 }
- 
+ /* regole lista cella */
  #sezione-grande li{
     list-style:  none;
     font-size: 15px;
@@ -175,18 +168,10 @@ nav{
  .orizzontale{
    background-color: rgb(252, 253, 254);
    flex-basis: 70%;
-   position: relative;
-    flex-direction: column;
-    justify-content: space-between; */
-   }
-  
-   .orizzontale a{
-    position: absolute;
-    padding: 3%;
-    top: 10%;
-    right: 10%;
-   }
-
+    /* flex-direction: column; */
+    justify-content: space-around; */
+    
+}
 /* regole minisezione*/
 .minisezione{
     background-color: rgb(255, 255, 255);
@@ -195,14 +180,10 @@ nav{
     justify-content: center;
     align-items: center;
 }
-
 .minisezione section{
     height: 70%;
-   
    }
-
 .minisezione :first-child{
-    
     flex-basis: 45%;
 }
 .minisezione img{
@@ -213,7 +194,6 @@ nav{
     flex-direction: column;
     flex-basis: 30%;
     padding: 5%;
-    
 }
 /* fine regole minisezione */
 
@@ -221,8 +201,6 @@ nav{
 #postmini {
     font-size: 35px;
     margin-left: 15%;
-    
-
 }
 /* regole sezione drop operations */
 .drop-operation {
@@ -231,14 +209,11 @@ nav{
     margin-left: 15%;
     display: flex;
     flex-wrap: wrap;
-    
     justify-content: space-around;
     margin-top: 5%;
 }
 .drop-operation div {
-    
     width: 28%;
-
 }
 .drop-operation img {
     max-width: 100%;
@@ -256,7 +231,6 @@ footer{
     justify-content: center;
     gap: 3%;
     position: relative;
-    
 }
 .footersection div {
     border: 1px solid black;
